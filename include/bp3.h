@@ -73,7 +73,7 @@ private:
     // pointer to the root node.
     Node* root;
 public:
-    BPlusTree() {};
+    BPlusTree() { root = NULL; };
 
     // Returns true if this B+ tree has no keys and values
     bool IsEmpty() const;
